@@ -4,6 +4,7 @@ import configPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/birthday-paradox/',
   optimizeDeps: {
     esbuildOptions: {
       target: 'es2020',
